@@ -15,6 +15,7 @@ build:
 requirements:
   build:
     - ${{ compiler('go-cgo') }}
+    - ${{ stdlib('c') }}
     - go-licenses
   host:
     - curl
