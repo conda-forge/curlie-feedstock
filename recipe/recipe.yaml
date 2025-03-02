@@ -1,5 +1,5 @@
 context:
-  version: 1.7.2
+  version: "1.8.1"
 
 package:
   name: curlie
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/rs/curlie/archive/v${{ version }}.tar.gz
-  sha256: b2ced685c6d2cde951cbd894ecc16df2f987f9d680830bcf482a7dcd22165116
+  sha256: 0b90d359b94af1d32cb2d34607f2bee10200e2f6a35f55840472e78dab7ed6f4
 
 build:
   number: 0
